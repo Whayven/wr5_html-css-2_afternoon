@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Nunito;
+    src: url(/fonts/Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(/fonts/Nunito-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(/fonts/Nunito-ExtraBold.ttf);
+    font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Nunito, sans-serif;
+  font-weight: 300;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+  background: #252525;
+  width: 100%;
+  height: 80px;
+}
+
+#logo {
+  height: 40px;
+  margin: 20px 30px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding: 0 13px;
+}
+
+#navbar a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+
+#navbar a button {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  background: #2aabe2;
+  border: none;
+  border-radius: 3px;
+}
+
+#hero {
+  background: url("./hoover-tung-unsplash.jpg");
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  background-size: cover;
+  background-position: center;
+}
+
+#overlay {
+  background: rgb(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-apart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-container {
+  color: white;
+  text-align: center;
+  height: 300px;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+}
+
+.hero-text h3 {
+  font-size: 25px;
+}
+
+.hero-link {
+    font-size: 20px;
+    color: #2aabe2;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero-link img {
+    height: 40px;
+    margin-right: 5px;
+}
+
+.hero-link p {
+    /* line-height: 40px; */
+    padding-top: 8px;
+    margin: 0;
+}
